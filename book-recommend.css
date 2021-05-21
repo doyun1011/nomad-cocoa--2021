@@ -1,0 +1,18 @@
+.book-recommen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.book-recommen__star {
+  color: #ffce33;
+  font-size: 5px;
+}
+.book-recommend {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.half-radius {
+  border-radius: 10px 0px 0px 10px;
+}

@@ -1,0 +1,17 @@
+.author-intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.author-intro__margin {
+  margin: 15px 0px 10px 0px;
+}
+.author-intro__name {
+  font-size: 20px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+.author-intro__detail {
+  font-weight: 900;
+  color: rgba(0, 0, 0, 0.2);
+}

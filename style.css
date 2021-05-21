@@ -1,0 +1,33 @@
+@import "reset.css";
+@import "library.css";
+@import "search.css";
+@import "book-intro.css";
+@import "book-recommend.css";
+@import "author-intro.css";
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 100vh;
+}
+
+.menu-title {
+  width: 90%;
+}
+.menu-title__font {
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.book__margin {
+  margin: 15px;
+  border-radius: 10px;
+}

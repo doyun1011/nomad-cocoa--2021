@@ -1,0 +1,32 @@
+.user-component {
+  display: flex;
+  width: 95%;
+  position: relative;
+}
+.user-component__column:first-child {
+  display: flex;
+  align-items: center;
+  padding: 15px 0;
+  justify-content: flex-start;
+}
+.user-component__avatar {
+  width: 70px;
+  height: 70px;
+  margin-right: 20px;
+  border-radius: 15px;
+}
+.user-component__name {
+  color: white;
+  font-weight: 600;
+  font-size: 22px;
+}
+.user-component__subtitle {
+  margin-top: 15px;
+  color: white;
+}
+.user-component__avatar--xl {
+  width: 80px;
+  height: 80px;
+  margin-right: 20px;
+  border-radius: 15px;
+}

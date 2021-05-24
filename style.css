@@ -1,37 +1,35 @@
 @import "reset.css";
-@import "list-screen.css";
-@import "song-screen.css";
-body {
+/* Components */
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-hearder.css";
+@import "components/user-component.css";
+@import "components/icon-and-title.css";
+@import "components/no-mobile.css";
+/* Screens */
+@import "screens/login.css";
+@import "screens/friends.css";
+@import "screens/chats.css";
+@import "screens/find.css";
+@import "screens/more.css";
+@import "screens/setting.css";
+@import "screens/talk.css";
+.screen {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #141519;
   align-items: center;
+  height: 95vh;
+
+  color: #2e363e;
 }
-main {
-  display: flex;
-  background-color: #f7f7f7;
-  justify-content: center;
-  align-items: center;
-  width: 900px;
-  height: 100vh;
-}
-.screen__top {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 85%;
-  margin: 30px 0px 15px 0px;
-}
-.top__icon {
-  font-size: 15px;
-  color: rgba(0, 0, 0, 0.6);
-}
-.bottom-of-img__bold-font {
-  font-size: 23px;
-  font-weight: 900;
-}
-.bottom-of-img__thin-font {
-  font-size: 13px;
-  color: rgba(0, 0, 0, 0.4);
-  margin: 20px;
+.white-font {
   font-weight: 600;
+  color: white;
 }
+/*
+.friends-screen {
+  background-image: url("배경3-1.jpg");
+  background-size: 100% 100%;
+}*/

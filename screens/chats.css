@@ -1,0 +1,24 @@
+.chats__link {
+  width: 95%;
+}
+.chats__notification-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 0;
+}
+
+.chats__notification {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: tomato;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  color: white;
+  font-weight: 600;
+  margin-top: 10px;
+}

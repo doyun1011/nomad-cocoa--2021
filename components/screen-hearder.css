@@ -1,0 +1,49 @@
+.screen-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+  height: 50px;
+  padding: 25px 0 5px 0;
+}
+.screen-header__title {
+  color: white;
+  font-size: 32px;
+  font-weight: 800;
+}
+.screen-header__icon {
+  color: white;
+  margin-left: 25px;
+}
+.screen-header__title:hover {
+  color: orange;
+}
+.screen-header div :hover {
+  animation: swingHorizontal 0.8s ease-in-out;
+}
+.screen-header a:hover {
+  color: orange;
+}
+
+@keyframes swingHorizontal {
+  15% {
+    transform: translateX(5px);
+    color: orange;
+  }
+  30% {
+    transform: translateX(-5px);
+  }
+  50% {
+    transform: translateX(3px);
+  }
+  65% {
+    transform: translateX(-3px);
+  }
+  80% {
+    transform: translateX(2px);
+  }
+  100% {
+    transform: translateX(0);
+    color: orange;
+  }
+}

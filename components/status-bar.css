@@ -1,0 +1,18 @@
+.status-bar {
+  display: flex;
+  position: fixed;
+  top: 0;
+  justify-content: space-between;
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 60px;
+  background-color: #141519;
+}
+.status-bar__font {
+  font-weight: 600;
+  color: white;
+}
+.status-bar__position {
+  position: relative;
+  left: -15px;
+}
